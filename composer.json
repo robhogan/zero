@@ -1,0 +1,24 @@
+{
+    "name": "rh389/zero",
+    "description": "The Zero micro-framework for executing the Zero Action of a given controller class",
+    "authors": [
+        {
+            "name": "Unknown (Original)"
+        },
+        {
+            "name": "Rob Hogan (Package)"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-0": {
+            "Zero\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "require": {}
+}
